@@ -1,4 +1,4 @@
-# fiber-mongo-example
+# Golang MongoDB CRUD App
 
 A simple CRUD app that showcases how you can use Fiber and MongoDB together
 
@@ -14,7 +14,7 @@ MONGO_URI=mongodb://localhost:27017
 PORT=8080
 ```
 
-5. run `go run main.go` in the root of the project
+5. run `make run` in the root of the project
 
 ### endpoints
 
@@ -57,4 +57,3 @@ input:
 #### DELETE /books/:id
 
 Deletes a book
-# golang-mongodb-api
